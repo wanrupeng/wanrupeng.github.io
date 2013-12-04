@@ -1,74 +1,149 @@
-<!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Wanrupeng.github.io : " />
+<head>
+<title>AngelaPeng</title>
+<link rel="stylesheet" type="text/css" href="assets/style.css" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<script src="assets/jquery-1.9.1.js"></script>
+<script src="assets/script.js"></script>
 
-    <title>Wanrupeng.github.io</title>
-  </head>
+</head>
 
-  <body>
+<body>
+  <div id="home"></div>
+	<div id="launch-container">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/wanrupeng">View on GitHub</a>
+   <div id="navtoggle"><img src="assets/nav.png"/ class="navicon"></div>
 
-          <h1 id="project_title">Wanrupeng.github.io</h1>
-          <h2 id="project_tagline"></h2>
 
-        </header>
+      <div id="title">AngelaPeng</div>
+      <div id="nav">
+          <div class="nav-item"><a href="#home"><img src="assets/navhome.png"/ class="icon4"></a></div>
+          <div class="nav-item"><a href="#about"><img src="assets/navabout.png"/ class="icon4"></a></div>
+          <div class="nav-item"><a href="#bucketlist"><img src="assets/navbucket.png"/ class="icon4"></a></div>
+           <div class="nav-item"><a href="#portfolio"><img src="assets/navport.png"/ class="icon4"></a></div>
+      </div>
+   
+
+        <div id="cover_content">
+          <div id="fittext"> Hey, I'm Angela Peng</div>
+        </div>
+
+  <div id="about">
+    <div id="about-container">
+
+       <img class="cellphone" src="assets/cellphone.jpg" onmouseover="this.src='assets/cellphonehover.png';" onmouseout="this.src='assets/cellphone.jpg';"/> 
+
+          <div id="facts">
+        		<div class="fact-list">March 11, 1995</div>
+        		<div class="fact-list">UC Berkeley</div>
+        		<div class="fact-list">Computer Science</div>
+        		<div class="fact-list">Los Angeles</div>
+          </div>
+          <div id="icons">
+            <div class="fact-icon">  <img src="assets/birthdaycake.png"/ class="icon2"> </div>
+            <div class="fact-icon">  <img src="assets/cal.png"/ class="icon2"> </div>
+            <div class="fact-icon">  <img src="assets/major.png"/ class="icon2"> </div>
+            <div class="fact-icon">  <img src="assets/home.png"/ class="icon2"> </div>
+          </div>
+      </div>
+  </div>
+
+  <div id="bucketlist">
+      <div class="buckettitle">Bucket List</div>
+    <div id="bucket-container">
+      <div class="bucket-icons">
+        <div class="indiv-icon"> 
+          <img src="assets/meteor.png"/ class="icon3">
+          <div class="btext">see a meteor</div>
+        </div>
+     		<div class="indiv-icon"> 
+          <img src="assets/cake.png"/ class="icon3">
+           <div class="btext">try every cheesecake<br> at cheesecake factory</div> 
+        </div>
+     		<div class="indiv-icon"> 
+          <img src="assets/usa.png"/ class="icon3"> 
+          <div class="btext">roadtrip across the country</div> 
+        </div>
+     		<div class="indiv-icon"> 
+          <img src="assets/book.png"/ class="icon3"> 
+          <div class="btext">write a book</div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="space">
+    <div id="spacetext">Portfolio</div>
+  </div>
+
+  <div id="portfolio">
+    <div id="craigslist-title">
+      <div id="title-text">
+        Craigslist Redesign
+      </div>
+    </div>
+    <div id="craigslist-container">
+      <div id="example">
+        <ul>
+          <li><img src="assets/craigslisthome.jpg" alt="craighome" /></li>
+          <li><img src="assets/craigsitem.png" alt="Elephant" /></li>
+        </ul>
+      </div>
+      <div id="text-box">
+        <div id="textbox-words">This was a group project for a web design class at Berkeley. The assignment was to redesign Craigslist to make it more aesthetically appealing and user friendly.</div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>lalalal This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div id="example-title">
+      <div id="title-text">
+        Example2
+      </div>
+    </div>
+    <div id="example-container">
+      <div id="example">
+        <ul>
+          <li><img src="assets/craigslisthome.jpg" alt="craighome" /></li>
+          <li><img src="assets/craigsitem.png" alt="Elephant" /></li>
+        </ul>
+      </div>
+      <div id="text-box">
+        <div id="textbox-words">lalalallala</div>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+
+    <div id="example2-title">
+      <div id="title-text">
+        Example3
+      </div>
+    </div>
+    <div id="example2-container">
+      <div id="example">
+        <ul>
+          <li><img src="assets/craigslisthome.jpg" alt="craighome" /></li>
+          <li><img src="assets/craigsitem.png" alt="Elephant" /></li>
+        </ul>
+      </div>
+      <div id="text-box">
+        <div id="textbox-words">lalalallala</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer"> 
+    <div id="footer-content">
+      Created by Angela Peng<br>
+      <a href="mailto:angelapeng@berkeley.edu"><img src="assets/contact.png"></a>
+      <a href="http://www.facebook.com/angelapengy"><img src="assets/facebook.png"></a>
     </div>
 
-    
+  </div>
 
-  </body>
+   <script src="assets/fittext.js"></script>
+        <script type="text/javascript">
+          fitText(document.getElementById('fittext'), 1.2)
+        </script>
+
+</body>
 </html>
