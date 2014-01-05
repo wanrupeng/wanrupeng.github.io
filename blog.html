@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>blog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <style>
+	body {margin-top: 60px;}
+    </style>
+
+  </head>
+
+ <body onLoad="init()">
+
+    <div id="loading" style="position:absolute; width:100%; text-align:center;
+ top:300px;">
+<img src="css/ajax-loader.gif" border=0></div>
+
+  <script>
+ var ld=(document.all);
+  var ns4=document.layers;
+ var ns6=document.getElementById&&!document.all;
+ var ie4=document.all;
+  if (ns4)
+  ld=document.loading;
+ else if (ns6)
+  ld=document.getElementById("loading").style;
+ else if (ie4)
+  ld=document.all.loading.style;
+  function init()
+ {
+ if(ns4){ld.visibility="hidden";}
+ else if (ns6||ie4) ld.display="none";
+ }
+ </script>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">HOME</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+          
+          <iframe width="100%" height="750" src="http://astrosoul.tumblr.com/" frameborder="0" allowfullscreen></iframe>
+
+
+
+ 
+   
+
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>
