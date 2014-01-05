@@ -8,14 +8,47 @@ body {
 	background-size: cover;
 	text-align: center;
 	padding: 100px 0;
+	-webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -o-transition: background 2s;
+
 }
+
+.full-width-image-1:hover{
+	background: url(../css/fieldwallpaper2.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+	 -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+
+
+}
+
+
 
 .full-width-image-2 {
 	background: url(../css/blossoms.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	height: 450px;
+	-webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -o-transition: background 2s;
 }
+
+
+.full-width-image-2:hover{
+	background: url(../css/blossoms2.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	 -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+
+}
+
 
 .logo-wrapper {
 	display: inline-block;
